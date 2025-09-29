@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ${SERVICE_NAME}
+
+server:
+  port: ${SERVER_PORT}
+
+discovery:
+  server-url: ${SERVER_URL}
+  service-name: ${SERVICE_NAME}
+  service-port: ${SERVER_PORT}
